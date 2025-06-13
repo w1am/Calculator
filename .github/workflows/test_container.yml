@@ -36,6 +36,7 @@ jobs:
           --volume ${{ github.step_summary }}:/build/step-summary
           --rm
           --env GITHUB_STEP_SUMMARY=/build/step-summary
+          --env GITHUB_ACTIONS=true
           --env GITHUB_SERVER_URL=${{ github.server_url }}
           --env GITHUB_REPOSITORY=${{ github.repository }}
           --env GITHUB_WORKSPACE=${{ github.workspace }}

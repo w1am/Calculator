@@ -1,0 +1,57 @@
+# .dockerignore file to exclude unnecessary files from Docker build context
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+
+# IDE and editor files
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build output
+bin/
+obj/
+out/
+
+# Test results
+test-results/
+TestResults/
+*.trx
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+
+# Runtime files
+*.dll
+*.exe
+*.pdb
